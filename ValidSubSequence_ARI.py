@@ -5,7 +5,7 @@
 	@ Problem Statement : Valid Subsequence Problem
 		Input : [1,2,3] and [1,2,3,4]
 		Output : True
-		Explanation : [1,2,3] is a subsequence of [1,2,3,4]s
+		Explanation : [1,2,3] is a subsequence of [1,2,3,4]
 '''
 
 def validSubSequence(array, sequence):
