@@ -1,7 +1,7 @@
 =begin
 	******************** 500 DAYS CODING CHALLENGE *****************************
 	@ AUTHOR : Ariharasudhan
-	@ DATE : 14/09/2022
+	@ DATE : 15/09/2022
 	@ Problem Statement: Given a 1-indexed array of integers numbers that is already
 		sorted in non-decreasing order, find two numbers such that they add up to a 
 		specific target number. Let these two numbers be numbers[index1] and numbers[index2]
