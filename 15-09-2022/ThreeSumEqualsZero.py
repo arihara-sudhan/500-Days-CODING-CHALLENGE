@@ -1,7 +1,7 @@
 '''	
 	******************** 500 DAYS CODING CHALLENGE *****************************
 	@ AUTHOR : Ariharasudhan
-	@ DATE : 14/09/2022
+	@ DATE : 15/09/2022
 	@ Problem Statement : Given an integer array nums, return True if the triplets 
 	[nums[i], nums[j], nums[k]] exists such that i != j, i != k, and j != k, 
 	and nums[i] + nums[j] + nums[k] == 0.
