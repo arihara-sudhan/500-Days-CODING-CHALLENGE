@@ -1,12 +1,3 @@
-/*
-    ******************** 500 DAYS CODING CHALLENGE *****************************
-    @ AUTHOR : Ariharasudhan
-    @ DATE : 21/09/2022
-    @ Problem Statement :  Perform Inorder Traversal in Iterative Method
-*/
-
-import java.util.Stack;
-
 class BinaryTreeInOrderIterative {
 	static class Node {
 		private int data;
