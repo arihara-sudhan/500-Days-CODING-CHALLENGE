@@ -1,9 +1,5 @@
-/*
-    ******************** 500 DAYS CODING CHALLENGE *****************************
-    @ AUTHOR : Ariharasudhan
-    @ DATE : 21/09/2022
-    @ Problem Statement :  Perform Inorder Traversal in Recursive Method
-*/
+// Implementation of PreOrder Recursive Traversal
+// Learn Datastructure in Java - Ariharasudhan
 
 class BinaryTreeInOrderRecursive {
 	static class Node {
@@ -31,7 +27,7 @@ class BinaryTreeInOrderRecursive {
 		three.right = seven;
 		return root;
 	}
-	public void preorder(Node root) {
+	public void inorder(Node root) {
 		if(root==null)
 			return;
 		preorder(root.left);
@@ -41,6 +37,6 @@ class BinaryTreeInOrderRecursive {
 	public static void main(String[] args){
 		BinaryTreeInOrderRecursive bt = new BinaryTreeInOrderRecursive();
 		Node root = bt.create();
-		bt.preorder(root);
+		bt.inorder(root);
 	}
 }
